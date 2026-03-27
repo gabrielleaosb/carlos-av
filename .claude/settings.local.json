@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \":*)",
+      "Bash(npx expo:*)",
+      "Bash(npx expo-doctor:*)",
+      "Bash(node -e \"const f = require\\(''firebase/auth''\\); console.log\\(Object.keys\\(f\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''persist''\\)\\)\\)\")",
+      "Bash(node -e \"const f = require\\(''firebase/auth/react-native''\\); console.log\\(Object.keys\\(f\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''persist''\\)\\)\\)\")",
+      "Bash(node -e \"const pkg = require\\(''firebase/package.json''\\); console.log\\(pkg.version\\)\")",
+      "Bash(python -c \"import sys,json; p=json.load\\(sys.stdin\\); print\\(''''version:'''', p.get\\(''''version''''\\)\\); print\\(''''exports keys:'''', list\\(p.get\\(''''exports'''', {}\\).keys\\(\\)\\)[:10]\\)\")",
+      "Bash(node -e \"const f = require\\(''@firebase/auth''\\); console.log\\(Object.keys\\(f\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''persist''\\) || k.toLowerCase\\(\\).includes\\(''native''\\)\\)\\)\")",
+      "Bash(python -c \"import sys,json; p=json.load\\(sys.stdin\\); print\\(p.get\\(''''version''''\\)\\)\")",
+      "Bash(node -e \"const f = require\\(''''@firebase/auth/react-native''''\\); console.log\\(Object.keys\\(f\\).filter\\(k => k.includes\\(''''Persist''''\\) || k.includes\\(''''persist''''\\)\\)\\)\")",
+      "Bash(grep -r getReactNativePersistence C:/Users/gabri/Projects/facul/carlos-av/node_modules/firebase/ --include=*.d.ts -l)",
+      "Bash(grep -r getReactNativePersistence C:/Users/gabri/Projects/facul/carlos-av/node_modules/@firebase/ --include=*.d.ts -l)",
+      "Bash(node -e \"const p = require\\(''./package.json''\\); console.log\\(''expo:'', p.dependencies.expo\\)\")",
+      "Bash(keytool -list -v -keystore \"@artistaa__fittrack-pro.jks\" -alias fe58ecf0b9b40847728f1f59bd77cccd -storepass 06f1760e4cd0bcd9ee9b6e49d8e72291 -keypass 783844dbf7fd21937fc5009dc20c0342)",
+      "Bash(find /c/Users/gabri/Projects/facul/carlos-av -not -path */node_modules/* -not -path */.expo/* -not -path */dist/* -type f)",
+      "Bash(head:*)",
+      "Bash(head -1 \"C:/Users/gabri/Projects/facul/carlos-av/app/\\(tabs\\)/index.tsx\")",
+      "Bash(head -1 \"C:/Users/gabri/Projects/facul/carlos-av/app/\\(tabs\\)/workouts.tsx\")",
+      "Bash(head -1 \"C:/Users/gabri/Projects/facul/carlos-av/app/\\(tabs\\)/progress.tsx\")",
+      "Bash(head -1 \"C:/Users/gabri/Projects/facul/carlos-av/app/\\(tabs\\)/profile.tsx\")"
+    ]
+  }
+}
